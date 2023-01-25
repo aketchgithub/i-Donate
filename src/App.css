@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  
 }
 
 .App-logo {
@@ -36,3 +38,83 @@
     transform: rotate(360deg);
   }
 }
+.pt-2 {
+  text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  z-index: 1;
+  top: 5;
+  left: 0;
+  background-color: #282c34;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+.sidenav a {
+  text-align: left;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #ffffff;
+  display: block;
+
+}
+.list {
+  border-bottom: solid #909091 ;
+  border-style: dotted;
+  border-width: 1px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.sidenav a:hover {
+  color: #756262;
+}
+
+.main {
+  margin-left: 280px; /* Same as the width of the sidenav */
+  padding-top: 80px;
+  color: rgb(98, 104, 104);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+p {
+  color: rgb(10, 10, 10);
+}
+.name {
+  color: #111;
+}
+.list {
+  font-size: 16px;
+}
+.name p {
+  color: #ffffff;
+}
+.name a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #15ff00;
+}
+li {
+  list-style-type: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: #61dafb;
+}
+.main p {
+  color: #ffffff;
+}
+/* .details {
+  border-bottom: solid #909091;
+  border-style: dotted;
+  border-width: 1px;
+} */
