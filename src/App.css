@@ -55,6 +55,7 @@
 
 }
 
+
 .sidenav a {
   text-align: left;
   padding: 3px;
@@ -118,3 +119,21 @@ li {
   border-style: dotted;
   border-width: 1px;
 } */
+.homepage-container {
+  display: flex;
+  color: #ffffff;
+  height: 100%;
+}
+
+.left-section {
+  width: 50%;
+  padding: 20px;
+}
+
+.right-section {
+  width: 50%;
+  padding: 20px;
+  color: #ffffff;
+  padding-top: 100px;
+  height: 1000px;
+}

@@ -7,13 +7,12 @@ function Search({ search, setSearch }) {
   return (
     <form className="d-flex" role="search">
       <input
-        className="form-control me-2"
+        className="form-control me-5"
         type="text"
         name={search}
         placeholder="Search....."
         onChange={handleSearch}
-          />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+      />
     </form>
   );
 }
