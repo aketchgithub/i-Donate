@@ -1,15 +1,28 @@
-// import LoginForm from './components.js/Login';
-import './App.css';
-import CharityList from './components.js/CharityList';
-import SearchBar from './components.js/searchBar';
+import "./App.css";
+import "./css/bootstrap.css";
+
+import HomePage from "./components/Navbar";
+import Slides from "./components/Landingpage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./components/Main";
+import Form from "./components/Form"
+import Login from "./components/LoginForm";
 
 function App() {
   return (
-    <div className="App">
-      <SearchBar/>
-     <CharityList/>
+    <div className="App ">
+      <HomePage position="fixed" />
+      <div>
+        <BrowserRouter>
+        <Routes>
+          <Route path="/"  element={<Slides />} ></Route>
+          <Route path="main"  element={<Main />} ></Route>
+          <Route path="form" element={<Form/>}></Route>
+          <Route path="login" element={<Login/>}></Route>
+       </Routes>
 
-      {/* <LoginForm/> */}
+        </BrowserRouter>
+      </div>
     </div>
   );
 }

@@ -67,8 +67,7 @@ function Slides() {
       <div className="bg-dark" style={{ height: "190%", }}>
       <div className="container name pt-5">
         <p style={{ width: "700px", marginLeft: 220 }}>
-          <p>Charity ... is kind, it is not easily provok’d, it thinks no evil, it
-          believes all things, hopes all things.</p>
+          <p>Welcome to the Charity Application</p>
           While actions are always to be judged by the immutable standard
           of right and wrong, and judgments we pass upon men must be qualified
           by considerations of age, country, station and other accidental
@@ -83,7 +82,7 @@ function Slides() {
             viewBox="0 0 16 16"
             href="main"
           >
-            
+             MAIN PAGE..
           </a>
         </p>
       </div>
