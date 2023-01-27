@@ -30,7 +30,6 @@ the user can be able to search for charity organisations based on location and t
 this project is contributed to by;
 Oprah Chemirmir,Victor Aketch,[@antonioomodho](https://www.github.com/antonioomodho) and Kelvin Kimtai.
 # license
-this project is licensed under 
-MIT license
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
