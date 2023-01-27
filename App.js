@@ -5,6 +5,7 @@ import HomePage from "./components/Navbar";
 import Slides from "./components/Landingpage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./components/Main";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/"  element={<Slides />} ></Route>
           <Route path="main"  element={<Main />} ></Route>
+          <Route path="form"  element={<Form />} ></Route>
        </Routes>
         </BrowserRouter>
       </div>
