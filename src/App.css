@@ -156,3 +156,20 @@ li {
 .signup {
   width: auto;
 }
+.card {
+  height: 640px;
+  padding-top: 50px;
+}
+.form-row {
+  color: aliceblue;
+}
+.card h2 {
+  color: aliceblue;
+  height:   30px;
+}
+.form-group {
+ padding-left: 35%;
+}
+.form {
+  height: 587px;
+}
