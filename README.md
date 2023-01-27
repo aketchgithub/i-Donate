@@ -28,7 +28,7 @@ the user can be able to search for charity organisations based on location and t
 5. Users should have a button that redirects them to a page that will enable them to fill out all requirements needed if they want to offer charity services to an organization of choice.
 # authors
 this project is contributed to by;
-Oprah Chemirmir,Victor Aketch,Antonio Lombado and Kelvin Kimtai.
+Oprah Chemirmir,Victor Aketch,Antonio Lombado(https://github.com/antonioomodho) and Kelvin Kimtai.
 # license
 this project is licensed under 
 MIT license
