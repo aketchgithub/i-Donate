@@ -6,6 +6,7 @@ import Slides from "./components/Landingpage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./components/Main";
 import Form from "./components/Form";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Routes>
           <Route path="/"  element={<Slides />} ></Route>
           <Route path="main"  element={<Main />} ></Route>
-          <Route path="form"  element={<Form />} ></Route>
+            <Route path="form" element={<Form />} ></Route>
+            <Route path="login"  element={<Login />} ></Route>
        </Routes>
         </BrowserRouter>
       </div>

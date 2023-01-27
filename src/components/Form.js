@@ -50,7 +50,9 @@ function PopUp() {
     </div>
   </div>
   <div className="form-group col-md-8 pt-2">
-  <button type="submit" className="btn btn-primary">Submit</button> 
+  <Link className='link' to="/main">
+        <button className="btn btn-primary">Submit</button>
+      </Link>
   </div>
  </div>
 </form>

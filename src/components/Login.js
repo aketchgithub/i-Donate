@@ -33,7 +33,7 @@ export default function Login() {
 <div className="form-row">
   <div className="form-group col-md-8">
     <label for="inputCity">Confirm Password</label>
-    <input type="Password" className="form-control" placeholder="cConfirm Password" id="inputCity"/>
+    <input type="Password" className="form-control" placeholder="Confirm Password" id="inputCity"/>
   </div>
  
  
