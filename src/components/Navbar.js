@@ -31,10 +31,11 @@ function HomePage(search, setSearch) {
             </li>
           </ul>
           <form class="d-flex" role="search">
-            
-            <button class="btn btn-outline-primary" type="">
-              Login
-            </button>
+          <li className="nav-item btn btn-primary">
+              <a className="nav-link active" aria-current="page" href="login">
+                Login
+              </a>
+            </li>
           </form>
         </div>
       </div>
