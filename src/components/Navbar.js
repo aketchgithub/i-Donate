@@ -26,7 +26,7 @@ function HomePage(search, setSearch) {
             </li>
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="form">
-                Form
+                Donate
               </a>
             </li>
           </ul>

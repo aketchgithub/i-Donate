@@ -1,20 +1,23 @@
-import React, { useState } from "react";
+
 import { Link, useNavigate } from "react-router-dom";
 
 function PopUp() {
-  const navigate = useNavigate();
-  const handleSubmit = (event) => {
-    event.preventDefault();
 
+  const navigate = useNavigate();
+   
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Thank You for the Donation.");
     // 👇️ redirect to /contacts
     navigate("home", { replace: true });
   };
+
   return (
     <div className="card bg-dark">
-      <form className=" form lign-items-center">
+      <form className=" form align-items-center">
        
         <div className="form-row pt-2 align-items-center">
-          <h2>Charity Form</h2>
+         <h2>Donation Form</h2> <br />
           <div className="form-group col-md-8">
       <label for="inputusername">FullName</label>
       <input type="text" className="form-control" id="inputusername" placeholder="Enter FullName"/>
