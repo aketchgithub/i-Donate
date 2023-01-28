@@ -57,7 +57,7 @@ function Main() {
       <div className="left-section">
       <div className="sidenav pt-5" data-bs-theme="dark">
 
-      <h2><u><b>CHARITY lIST</b></u></h2>
+      <h2><u><b>CHARITY LIST</b></u></h2>
           {data.place &&
             data.place
               .filter(place => place.charityName.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -82,13 +82,14 @@ function Main() {
         {selectedOrganization.charityName && (
           <div className="high">
             <h2>{selectedOrganization.charityName}</h2>
-            <p><b>Categoy:</b> {selectedOrganization.category}</p>
+            <p><b>Category: </b> {selectedOrganization.category}</p>
             <p><b>ZipCode:</b> {selectedOrganization.zipCode}</p>
           <p><b>City:</b> {selectedOrganization.city}</p>
           <p><b>State:</b> {selectedOrganization.state}</p>
+          <p><b>Longitude:  {selectedOrganization.longitude}</b></p>
           <p>{selectedOrganization.phone}</p>
             <p>{selectedOrganization.email}</p>
-            <p><a href={selectedOrganization.donationUrl}>Donation Form</a></p>
+            <p><a href={selectedOrganization.donationUrl}>Make a Donation.</a></p>
         </div>
         )}
         {data.place &&
@@ -103,10 +104,10 @@ function Main() {
              <p><b>Category:</b> {place.category}</p>
              <p><b>ZipCode:</b> {place.zipCode}</p>
           <p><b>City:</b> {place.city}</p>
-            <p><b>State:</b>{place.state}</p>
+            <p><b>State: </b>{place.state}</p>
             <p><b>Longitude:</b>  {place.longitude} & <b>Latitude:</b>  {place.latitude}</p>
            
-            <p><a href={place.donationUrl}>Donation Form</a></p>
+            <p><a href={place.donationUrl}>Make a Donation.</a></p>
              ................................................................................................
            </div>
               ))}

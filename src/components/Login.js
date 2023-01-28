@@ -5,7 +5,7 @@ export default function Login() {
   return (
     
     <div className="card bg-dark">
-    <form className=" form lign-items-center">
+    <form className=" form align-items-center">
      
       <div className="form-row pt-2 align-items-center">
         <h2>Login Form</h2>
