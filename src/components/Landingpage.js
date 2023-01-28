@@ -15,7 +15,7 @@ function Slides() {
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100 "
-            style={{ height: "350px" }}
+            style={{ height: "350px"}}
             src={charity6}
             alt="First slide"
           />
@@ -40,7 +40,7 @@ function Slides() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            style={{ height: "350px" }}
+            style={{ height: "350px"}}
             src={charity8}
             alt="Third slide"
           />
