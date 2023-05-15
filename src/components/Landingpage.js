@@ -1,82 +1,68 @@
+import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import Works from "./works";
 import charity6 from "../img/charity6.jpeg";
 import charity7 from "../img/charity7.jpeg";
-import charity8 from "../img/charity8.jpeg";
-import charity9 from "../img/charity9.jpeg";
+// import charity8 from "../img/charity8.jpeg";
+// import charity9 from "../img/charity9.jpeg";
 
-function Slides() {
+
+function LandingPage() {
   return (
-    <div
-      className="pt-5 bg-dark"
-      style={{ height: "200px" }}
-      data-bs-theme="dark"
-    >
-      <Carousel>
-        <Carousel.Item interval={1000}>
-          <img
-            className="d-block w-100 "
-            style={{ height: "350px"}}
-            src={charity6}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <p>Those who are happiest are those who do the most for others.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={500}>
-          <img
-            className="d-block w-100"
-            style={{ height: "350px" }}
-            src={charity7}
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <p>
-              Remember that the happiest people are not those getting more, but
-              those giving more.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            style={{ height: "350px"}}
-            src={charity8}
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <p>
-              We make a living by what we get. We make a life by what we give.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            style={{ height: "350px" }}
-            src={charity9}
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <p>
-              Happiness doesn’t result from what we get, but from what we give.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-      <div className="bg-dark" style={{ height: "190%", }}>
+    <div className="bg-dark text-light">
+      <div className="hero-section">
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              style={{ height: "350px" }}
+              src={charity6}
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <h1>Donate to Charitable Organizations</h1>
+              <p>
+                Help make a difference by supporting causes you care about.
+              </p>
+              <a href="#main" className="btn btn-primary">
+                Learn More
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              style={{ height: "350px" }}
+              src={charity7}
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h1>Empower Communities through Donations</h1>
+              <p>
+                Your contributions can bring positive change to those in need.
+              </p>
+              <a href="main" className="btn btn-primary">
+                Learn More
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
+          {/* Add more carousel items with relevant images and captions */}
+        </Carousel>
+      {/* </div> */}
+    
+       <div className="bg-g" style={{ height: "390%", }}> 
       <div className="container name pt-5">
-        <p style={{ width: "700px", marginLeft: 220 }}>
-          <p>Welcome to the Charity Application</p>
+        <p style={{ width: "700px", height: "200px" ,marginLeft: 220 }}>
+          <p>Welcome to i-Donate</p>
           While actions are always to be judged by the immutable standard
           of right and wrong, and judgments we pass upon men must be qualified
           by considerations of age, country, station and other accidental
           circumstances; and it will then be found that he who is most
-          charitable in his judgment is generally th .....   
+          charitable in his judgment is generally th ...  
           <a
             xmlns="http://www.w3.org/2000/svg"
             width="36"
-            height="36"
+            height="96"
             fill="currentColor"
             class="bi bi-arrow-right"
             viewBox="0 0 16 16"
@@ -84,11 +70,29 @@ function Slides() {
           >
             MAINPAGE
           </a>
-        </p>
+          </p>
+          
+        {/* </p> */}
       </div>
+      
+          <Works/>
+          
     </div>
-    </div>
+    
+
+    <footer className="footer ">
+        <div className="container">
+          <p className="mb-0">
+            &copy; {new Date().getFullYear()} i-Donate. All rights reserved.
+          </p>
+        </div>
+      </footer>
+     </div>
+      
+      {/* The rest of your landing page content goes here */}
+      
+     </div>
   );
 }
 
-export default Slides;
+export default LandingPage;

@@ -1,10 +1,14 @@
 import React from "react";
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import About from "./About";
 
 function HomePage(search, setSearch) {
   return (
-    <nav class="navbar  navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+    <nav class="navbar  navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark">
       <div class="container-fluid">
-        <h3>CHARITY APP</h3>
+        <h3>i-Donate</h3>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,6 +33,11 @@ function HomePage(search, setSearch) {
                 Donate
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="about" >
+                About
+              </a>
+            </li>
           </ul>
           <form class="d-flex" role="search">
           <li className="nav-item btn btn-primary">
@@ -37,6 +46,7 @@ function HomePage(search, setSearch) {
               </a>
             </li>
           </form>
+          
         </div>
       </div>
     </nav>
@@ -44,3 +54,4 @@ function HomePage(search, setSearch) {
 
 }
 export default HomePage;
+
